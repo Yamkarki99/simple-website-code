@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="./style.css" />
+    <title>Flex blog</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <!-- global msg section -->
+      <section class="global">
+        <div class="container flex">
+          <div>Welcome!</div>
+
+          <div>
+            <i class="fa-brands fa-square-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+          </div>
+        </div>
+      </section>
+
+      <!-- Header   section -->
+      <header>
+        <div class="container">
+          <div class="logo">
+            <div>LOGO</div>
+          </div>
+          <ul>
+            <li>Home</li>
+            <li>Contact</li>
+            <li>About</li>
+          </ul>
+        </div>
+      </header>
+
+      <!-- Hero   section -->
+      <section class="hero">
+        <div class="hero-content">
+          <h1>Welcome to my travel blog</h1>
+          <hr />
+          <p>your one stop getaway information</p>
+        </div>
+      </section>
+
+      <!-- latest post section -->
+      <section class="container">
+        <h2>Latest posts</h2>
+        <hr />
+        <main class="main">
+          <div class="articles">
+            <article>
+              <div class="art-img">
+                <img src="./img/hero.jpg" width="100%" alt="" />
+              </div>
+              <div class="art-content">
+                <div class="title">
+                  How to travel around the world with low $$$
+                </div>
+
+                <i class="fa-solid fa-calendar-days"></i>
+                <small>20-10-2020</small>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Illum necessitatibus praesentium ipsam placeat eius
+                  reprehenderit asperiores ut, architecto. Magni...
+                </p>
+                <button class="btn">Read More ...</button>
+              </div>
+            </article>
+            <article>
+              <div class="art-img">
+                <img src="./img/hero.jpg" width="100%" alt="" />
+              </div>
+              <div class="art-content">
+                <div class="title">
+                  How to travel around the world with low $$$
+                </div>
+
+                <i class="fa-solid fa-calendar-days"></i>
+                <small>20-10-2020</small>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Illum necessitatibus praesentium ipsam placeat eius
+                  reprehenderit asperiores ut, architecto. Magni...
+                </p>
+                <button class="btn">Read More ...</button>
+              </div>
+            </article>
+
+            <article>
+              <div class="art-img">
+                <img src="./img/hero.jpg" width="100%" alt="" />
+              </div>
+              <div class="art-content">
+                <div class="title">
+                  How to travel around the world with low $$$
+                </div>
+
+                <i class="fa-solid fa-calendar-days"></i>
+                <small>20-10-2020</small>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Illum necessitatibus praesentium ipsam placeat eius
+                  reprehenderit asperiores ut, architecto. Magni...
+                </p>
+                <button class="btn">Read More ...</button>
+              </div>
+            </article>
+          </div>
+
+          <aside class="side-links">
+            <div class="country">
+              <h3>Read by country</h3>
+              <ul>
+                <li>australia</li>
+                <li>Nepal</li>
+                <li>india</li>
+                <li>china</li>
+              </ul>
+            </div>
+            <div class="date">
+              <h3>Read by date</h3>
+              <ul>
+                <li>67</li>
+                <li>69</li>
+                <li>70</li>
+                <li>80</li>
+              </ul>
+            </div>
+          </aside>
+        </main>
+      </section>
+
+      <!-- recc  section -->
+      <div class="container">
+        <h2>recommendation destination</h2>
+        <hr />
+        <div class="card-list">
+          <div class="card">
+            <img src="./img/hero.jpg" width="100%" alt="" />
+            <div class="container">
+              <h3>Lorem ipsum dolor sit amet.</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Architecto, fugit.
+              </p>
+              <button class="btn">Explore -></button>
+            </div>
+          </div>
+          <div class="card">
+            <img src="./img/hero.jpg" width="100%" alt="" />
+            <div class="container">
+              <h3>Lorem ipsum dolor sit amet.</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Architecto, fugit.
+              </p>
+              <button class="btn">Explore -></button>
+            </div>
+          </div>
+          <div class="card">
+            <img src="./img/hero.jpg" width="100%" alt="" />
+            <div class="container">
+              <h3>Lorem ipsum dolor sit amet.</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Architecto, fugit.
+              </p>
+              <button class="btn">Explore -></button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- subscribe msg section -->
+      <section class="subs container">
+        <h3>Subscribe my channel</h3>
+        <form action>
+          <input type="text" placeholder="sam" /><br />
+          <input type="email" placeholder=".com" /><br />
+          <input type="number" placeholder="number" />
+        </form>
+      </section>
+
+      <!-- footer section -->
+      <footer class="footer">
+        &copy; copy all right reserved. Made by me with 💜
+      </footer>
+    </div>
+  </body>
+</html>
